@@ -1,6 +1,7 @@
-export default function Titulo({children}){
+
+export default function Title({children}){
     return(
-        <h2 className="text-2xl border-l-8 bg-violet-950 m-4 pl-2 leading-6">
+        <h2 className="text-xl font-semibold bg-yellow-400 border-l-8 m-2 pl-2">
             {children}
         </h2>
     )
