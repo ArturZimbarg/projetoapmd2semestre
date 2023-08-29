@@ -14,11 +14,11 @@ export default function Home() {
 
       <div id="card" className='flex flex-col w-40 justify-center items-center m-2'>
         <img className='rounded' src="https://place-hold.it/150x220/666" alt="" />
-        <span className='bg-yellow-400 font-bold text-center line-clamp-1'>titulo do filme do card</span>
+        <span className='text-purple-100 font-bold text-center line-clamp-1'>titulo do filme do card</span>
         <div>
-          <span>6.0</span>
+          <span className='text-purple-100'>6.0</span>
         </div>
-        <a href="#" className='bg-yellow-400 py-2 w-full rounded text-center'>
+        <a href="#" className='bg-purple-100 py-2 w-full rounded text-center'>
           detalhes
         </a>
       </div>
@@ -27,11 +27,11 @@ export default function Home() {
 
       <div id="card" className='flex flex-col w-40 justify-center items-center m-2'>
           <img className='rounded' src="https://place-hold.it/150x220/666" alt="" />
-          <span className='bg-yellow-400 font-bold text-center line-clamp-1'>titulo do filme do card</span>
+          <span className='text-purple-100 font-bold text-center line-clamp-1'>titulo do filme do card</span>
           <div>
-            <span>6.0</span>
+            <span className='text-purple-100'>6.0</span>
           </div>
-          <a href="#" className='bg-yellow-400 py-2 w-full rounded text-center'>
+          <a href="#" className='bg-purple-100 py-2 w-full rounded text-center'>
             detalhes
           </a>
         </div>
@@ -40,11 +40,11 @@ export default function Home() {
 
       <div id="card" className='flex flex-col w-40 justify-center items-center m-2'>
           <img className='rounded' src="https://place-hold.it/150x220/666" alt="" />
-          <span className='bg-yellow-400 font-bold text-center line-clamp-1'>titulo do filme do card</span>
+          <span className='text-purple-100 font-bold text-center line-clamp-1'>titulo do filme do card</span>
           <div>
-            <span>6.0</span>
+            <span className='text-purple-100'>6.0</span>
           </div>
-          <a href="#" className='bg-yellow-400 py-2 w-full rounded text-center'>
+          <a href="#" className='bg-purple-100 py-2 w-full rounded text-center'>
             detalhes
           </a>
         </div>
