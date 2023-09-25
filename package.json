@@ -11,8 +11,13 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "autoprefixer": "10.4.15",
+<<<<<<< HEAD
     "lucide": "^0.271.0",
     "next": "^13.4.19",
+=======
+    "next": "^13.5.1",
+    "node-fetch": "^2.7.0",
+>>>>>>> f5161d36487e462b5a1ef5c0870481b6bcb8e8b5
     "postcss": "8.4.28",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
