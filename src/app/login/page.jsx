@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import loginimage from "./images/login.jpg"
+import loginimage from "@/image/loginnn.jpg"
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "react-hot-toast";
@@ -21,14 +21,14 @@ export default function Login(){
     }
 
     return(
-        <div className="flex">
+        <div className="flex bg-yellow-300">
             <aside className="hidden lg:flex h-screen">
                 <Image src={loginimage} className="h-auto w-auto object-cover" />
             </aside>
             <main className="flex flex-col justify-center items-center p-4 h-screen w-full">
-                <h2>Fiap Filmes</h2>
+                <h2 className="text-purple-900">Suas séries flix</h2>
                 <form onSubmit={login} className="flex flex-col gap-2">
-                    <label htmlFor="email">E-mail</label>
+                    <label htmlFor="email ">E-mail</label>
                     <input 
                         type="email" 
                         id="email" 
@@ -45,7 +45,7 @@ export default function Login(){
                         onChange={(e) => setSenha(e.target.value)}
                         className="bg-slate-600 p-1 rounded"/>
                     
-                    <button className="bg-pink-600 p-2 rounded mt-2">entrar</button>
+                    <button className="bg-purple-600 p-2 rounded mt-2">entrar</button>
                 </form>
             </main>
         </div>

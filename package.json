@@ -11,16 +11,12 @@
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "autoprefixer": "10.4.15",
-<<<<<<< HEAD
-    "lucide": "^0.271.0",
-    "next": "^13.4.19",
-=======
-    "next": "^13.5.1",
+    "next": "^13.5.3",
     "node-fetch": "^2.7.0",
->>>>>>> f5161d36487e462b5a1ef5c0870481b6bcb8e8b5
     "postcss": "8.4.28",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "tailwindcss": "3.3.3"
   }
 }
