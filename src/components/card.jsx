@@ -20,7 +20,7 @@ export default function CardFilme({serie}){
                 {serie.name}
             </span>
             <div>
-                <span className='text-yellow-100'>{serie.vote_average}</span>
+                <span className='text-purple-100'>{serie.vote_average}</span>
             </div>
             <a href="#" className='bg-purple-100 py-2 w-full rounded text-center'>
                 detalhes
